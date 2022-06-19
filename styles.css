@@ -120,7 +120,11 @@ nav > ul {
   nav > ul {
     flex-direction: column;
     align-items: center;
-    row-gap: 0.5rem;
+    row-gap: 0.6rem;
+  }
+
+  .nav-links > li {
+    font-size: 1.4rem;
   }
 }
 
@@ -176,13 +180,17 @@ form #submit {
 
 @media (max-width: 500px) {
   #form-container > h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
+  }
+
+  #form-container {
+    margin-top: 12rem;
   }
 }
 
 @media (max-width: 450px) {
   #form-container > h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-align: center;
   }
 }
@@ -243,7 +251,7 @@ form #submit {
     width: 80%;
     gap: 3rem;
     align-items: center;
-    margin: 3rem auto;
+    margin: 5rem auto;
     padding: 0;
   }
   i {
@@ -387,4 +395,15 @@ footer ul {
 
 footer ul li {
   margin: 1rem 0.6rem;
+}
+
+@media (max-width: 500px) {
+  .footer-container {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  footer ul {
+    justify-content: center;
+  }
 }
